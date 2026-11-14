@@ -9,7 +9,7 @@ PrintBot is a hosted MCP server that lets Claude and other AI assistants print t
 - Website: [getprintbot.com](https://getprintbot.com)
 - MCP endpoint: `https://getprintbot.com/mcp` (Streamable HTTP, OAuth sign-in)
 - Official MCP Registry: `com.getprintbot/printbot`
-- Free while in beta (100 pages and 60 jobs a month)
+- Free for 5 prints a month (up to 25 pages). PrintBot Plus is $7.99/month for 200 pages; PrintBot + TextBot is $9.99/month.
 
 This repository holds the listing for PrintBot: the README, the registry file ([`server.json`](server.json)) and the logo. PrintBot itself is a hosted service, so there is nothing to install from here.
 
@@ -41,7 +41,7 @@ claude mcp add --transport http printbot https://getprintbot.com/mcp
 }
 ```
 
-**ChatGPT:** the ChatGPT app prints through email. Copy your private print address from the ChatGPT tab on [setup](https://getprintbot.com/setup), and ChatGPT (with Gmail connected) emails the document to your printer.
+**ChatGPT:** the ChatGPT app prints through email. Copy your private print address from the ChatGPT tab on [setup](https://getprintbot.com/setup), and ChatGPT (with Gmail connected) emails the document to your printer. PrintBot replies by email with the result, so ask ChatGPT to check your Gmail for PrintBot's reply.
 
 ## Tools
 
