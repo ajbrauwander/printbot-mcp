@@ -2,14 +2,29 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.getprintbot/printbot",
   "title": "PrintBot",
-  "description": "Print from Claude and ChatGPT to the printer you already have at home. Free in beta for Mac.",
-  "version": "1.0.0",
+  "description": "Print from Claude and ChatGPT to your own printer. Free for 5 prints a month; Plus $7.99/mo.",
+  "version": "1.0.1",
   "websiteUrl": "https://getprintbot.com",
   "icons": [
-    { "src": "https://getprintbot.com/brand/printbot-mark.svg", "mimeType": "image/svg+xml", "sizes": ["any"] },
-    { "src": "https://getprintbot.com/brand/printbot-mark-192.png", "mimeType": "image/png", "sizes": ["192x192"] }
+    {
+      "src": "https://getprintbot.com/brand/printbot-mark.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    },
+    {
+      "src": "https://getprintbot.com/brand/printbot-mark-192.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "192x192"
+      ]
+    }
   ],
   "remotes": [
-    { "type": "streamable-http", "url": "https://getprintbot.com/mcp" }
+    {
+      "type": "streamable-http",
+      "url": "https://getprintbot.com/mcp"
+    }
   ]
 }
