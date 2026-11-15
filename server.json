@@ -3,8 +3,8 @@
   "name": "com.getprintbot/printbot",
   "title": "PrintBot",
   "description": "Print from Claude and ChatGPT to your own printer. Free for 5 prints a month; Plus $7.99/mo.",
-  "version": "1.0.1",
-  "websiteUrl": "https://getprintbot.com",
+  "version": "1.0.2",
+  "websiteUrl": "https://getprintbot.com/go/mcp-registry",
   "icons": [
     {
       "src": "https://getprintbot.com/brand/printbot-mark.svg",
