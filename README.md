@@ -6,7 +6,7 @@
 
 PrintBot is a hosted MCP server that lets Claude and other AI assistants print to the printer you already have at home or in the office. Ask for a grocery checklist, a worksheet, a recipe card or a meeting agenda, say "print it", and a clean page comes out a few seconds later, even when you asked from your phone.
 
-- Website: [getprintbot.com](https://getprintbot.com)
+- Website: [getprintbot.com](https://getprintbot.com/go/github)
 - MCP endpoint: `https://getprintbot.com/mcp` (Streamable HTTP, OAuth sign-in)
 - Official MCP Registry: `com.getprintbot/printbot`
 - Free for 5 prints a month (up to 25 pages). PrintBot Plus is $7.99/month for 200 pages; PrintBot + TextBot is $9.99/month.
@@ -15,11 +15,11 @@ This repository holds the listing for PrintBot: the README, the registry file ([
 
 ## 1. Connect your printer
 
-1. Sign in at [getprintbot.com/setup](https://getprintbot.com/setup).
-2. Download [PrintBot for Mac](https://getprintbot.com/download/mac) (free, signed and notarized), open it and click **Link**.
+1. Sign in at [getprintbot.com/setup](https://getprintbot.com/go/github?to=setup).
+2. Download [PrintBot for Mac](https://getprintbot.com/go/github?to=mac) (free, signed and notarized), open it and click **Link**.
 3. Make sure your printer works from that Mac (System Settings → Printers & Scanners). Keep PrintBot open and the Mac awake.
 
-Windows is coming. You can [join the waitlist](https://getprintbot.com/setup) for an email when it is ready.
+Windows is coming. You can [join the waitlist](https://getprintbot.com/go/github?to=setup) for an email when it is ready.
 
 ## 2. Connect your AI
 
@@ -41,7 +41,7 @@ claude mcp add --transport http printbot https://getprintbot.com/mcp
 }
 ```
 
-**ChatGPT:** the ChatGPT app prints through email. Copy your private print address from the ChatGPT tab on [setup](https://getprintbot.com/setup), and ChatGPT (with Gmail connected) emails the document to your printer. PrintBot replies by email with the result, so ask ChatGPT to check your Gmail for PrintBot's reply.
+**ChatGPT:** the ChatGPT app prints through email. Copy your private print address from the ChatGPT tab on [setup](https://getprintbot.com/go/github?to=setup), and ChatGPT (with Gmail connected) emails the document to your printer. PrintBot replies by email with the result, so ask ChatGPT to check your Gmail for PrintBot's reply.
 
 ## Tools
 
